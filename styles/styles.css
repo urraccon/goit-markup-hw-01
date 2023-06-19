@@ -1,0 +1,189 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    height: 2348px;
+}
+
+.navigation {
+    /* height: 80px; */
+    background-color: #FFFFFF;
+    /* margin-top: 24px; */
+    /* background-color: black;  */
+    /* padding-top: 24px;
+    margin-bottom: -24px; */
+}
+
+/* .menuButtons {
+    padding-top: 24px;
+} */
+
+.home-page-button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    /* margin-left: 215px;
+    vertical-align: middle; */
+}
+
+.menu-button {
+    font-size: 14px;
+    color: #212121;
+    font-weight: 500;
+    /* margin-left: 50px; */
+}
+
+.contact-button {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 500;
+    /* margin-left: 40px; */
+}
+
+#blueButton {
+    color: #2196F3;
+}
+
+/* .firstMenuButton {
+    margin-left: 93px;
+} */
+
+/* .firstContactButton {
+    margin-left: 385px;
+} */
+
+.main-page {
+    background-color: #2F303A;
+    height: 600px;
+    text-align: center;
+}
+
+.main-page-title {
+    vertical-align: middle;
+    padding-top: 200px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.request-service-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    height: 50px;
+    width: 200px;
+} 
+
+.strong-points {
+    text-align: center;
+    margin-top: 94px;
+}
+
+.strong-point-box {
+    /* height: 101px; */
+    width: 270px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.what-we-do-photos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.strong-point-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.strong-point-details {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    text-align: left;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.what-we-do-photo {
+    width: 370px;
+    height: 294px;
+    margin-left: 30px;
+}
+
+.out-team {
+    /* height: 648px; */
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    margin-top: 47px;
+}
+
+.what-we-do {
+    margin-top: 94px;
+}
+
+.person-box {
+    width: 270px;
+    height: 368px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 94px;
+}
+
+.person-image {
+    height: 270px;
+    width: 260px;
+}
+
+.person-boxs {
+    text-align: center;
+}
+
+.person-name {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.person-position {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.footer {
+    background-color: #2F303A;
+    height: 251px;
+    margin-top: 47px;
+}
+
+.footer-content {
+    padding-left: 215px;
+    padding-top: 60px;
+}
+
+.footer-home-page-button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    margin-top: 28px;
+}
+
+.address {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.contact {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+}
