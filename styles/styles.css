@@ -408,9 +408,10 @@ body > div {
   /* margin: 0; */
 }
 
-.product-page > div {
+/* .products-page > div {
   height: 85rem;
-}
+  background-color: #000000;
+} */
 
 .product-box {
   width: 23.125rem;
