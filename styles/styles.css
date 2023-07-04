@@ -354,9 +354,9 @@ body > div {
   /* width: 10rem; */
 }
 
-/* .products > div {
-  width: 73.125rem;
-} */
+.products > div {
+  width: 74.125rem;
+}
 
 .products {
   display: flex;
@@ -399,6 +399,7 @@ body > div {
   color: hsl(0, 100%, 100%);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .products-page {
   display: flex;
@@ -448,4 +449,22 @@ body > div {
 .product-8,
 .product-9 {
   margin-bottom: 0rem;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--blue);
+}
+
+.product-box:hover,
+.product-box:focus {
+  cursor: pointer;
+  /* box-shadow: 0px 2px 2px 0px, rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.current-page {
+  color: var(--blue);
 }
