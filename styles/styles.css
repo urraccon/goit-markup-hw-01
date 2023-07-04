@@ -1,9 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
-  width: 100rem;
+  /* width: 100rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* height: 2348px; */
   /* display: inline-block;
   vertical-align: middle; */
+}
+
+body > div {
+  width: 100rem;
 }
 
 .navigation {
