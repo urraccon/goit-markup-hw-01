@@ -1,1 +1,1 @@
-# web_studio
+# web-studio
