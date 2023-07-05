@@ -196,7 +196,7 @@ body > div {
   margin-left: 1.87rem;
   /* margin-bottom: 94px; */
   border-radius: 0rem 0rem 0.25rem 0.25rem;
-  box-shadow: var(--products-shadow);
+  box-shadow: var(--team-boxes-shadow);
 }
 
 .person-image {
@@ -320,8 +320,10 @@ body > div {
   --buttons-color: #f5f4fa;
   --buttons-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  --products-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+  --team-boxes-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --products-boxes-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .product {
@@ -424,6 +426,7 @@ body > div {
   align-items: center;
   justify-content: center;
   height: 96.75rem;
+  /* background-color: #000000; */
   /* margin: 0; */
 }
 
@@ -483,7 +486,7 @@ body > div {
   cursor: pointer;
   /* box-shadow: 0px 2px 2px 0px, rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
-  box-shadow: var(--products-shadow);
+  box-shadow: var(--products-boxes-shadow);
 }
 
 .current-page {
@@ -500,3 +503,27 @@ body > div {
   display: grid;
   grid-row: 3;
 } */
+
+/* .products-page div {
+  background-color: #000000;
+} */
+
+.hidden {
+  display: none;
+}
+
+.products-page.web-site {
+  height: 42.5rem;
+}
+
+.products-page.apps {
+  height: 42.5rem;
+}
+
+.product-page.design {
+  height: 42.5rem;
+}
+
+.product-page.marketing {
+  height: 42.5rem;
+}
