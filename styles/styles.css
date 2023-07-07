@@ -21,9 +21,12 @@ body {
 
 .navigation {
   height: 5rem;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  /* display: inline-block; */
+  text-align: center;
+  /* width: 100rem; */
   /* background-color: #ffffff;
   margin-top: 24px;
   background-color: black; 
@@ -31,12 +34,30 @@ body {
   margin-bottom: -24px; */
 }
 
+.navigation-area {
+  display: inline-block;
+  padding: 1.5rem 0 1.56rem 0;
+}
+
 .navigation-buttons {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   list-style-type: none;
-  align-items: center;
+  /* align-items: center; */
+  display: grid;
+  grid-template-columns: 11.96rem 8.42rem auto auto auto auto;
+  /* column-gap: 3.12rem; */
+  /* justify-self: center;
+  align-self: center; */
+  /* text-align: center; */
+  /* display: inline-block;
+  text-align: center; */
   /* justify-content: center; */
+}
+
+.navigation-button {
+  justify-self: center;
+  align-self: center;
 }
 
 /* .menuButtons {
@@ -57,14 +78,14 @@ body {
   font-size: 0.875rem;
   color: #212121;
   font-weight: 500;
-  margin-left: 3.13rem;
+  /* margin-left: 3.13rem; */
 }
 
 .contact-button {
   font-size: 0.875rem;
   color: var(--paragraphs-color);
   font-weight: 500;
-  margin-left: 2.5rem;
+  /* margin-left: 2.5rem; */
 }
 
 .blue-button {
@@ -79,13 +100,13 @@ body {
   margin-left: 385px;
 } */
 
-.menu-button.first-button {
+/* .menu-button.first-button {
   margin-left: 5.81rem;
-}
+} */
 
-.contact-button.first-button {
+/* .contact-button.first-button {
   margin-left: 24.06rem;
-}
+} */
 
 .main-page {
   background-color: #2f303a;
