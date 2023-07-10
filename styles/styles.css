@@ -12,6 +12,7 @@ body {
   /* height: 146.75rem; */
   /* display: inline-block;
   text-align: center; */
+  /* width: 100%; */
 }
 
 /* body > div {
@@ -19,6 +20,10 @@ body {
   display: inline-block;
   vertical-align: middle;
   width: 100rem;
+} */
+
+/* .studio-page {
+  height: 146.75rem;
 } */
 
 .navigation {
@@ -368,7 +373,7 @@ body {
 
 .footer {
   background-color: #2f303a;
-  /* height: 15.6875rem; */
+  height: 15.6875rem;
   /* margin-top: 47px; */
   text-align: center;
   /* box-sizing: border-box; */
@@ -385,31 +390,52 @@ body {
   /* padding-left: 13.44rem; */
   /* padding-top: 60px; */
   background-color: #2f303a;
-  height: 15.6875rem;
+  /* height: 15.6875rem; */
   box-sizing: border-box;
   width: 100rem;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 3.75rem 13.44rem;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 1.75rem;
 }
 
 .footer-home-page-button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1.625rem;
-  color: #ffffff;
+  color: #fff;
   letter-spacing: 0.04875rem;
+  /* height: 1.9375rem;
+  display: inline-block; */
+  line-height: 1.9375rem;
+  /* display: inline-block;
+  height: 1.9375rem; */
 }
+
+/* .footer-home-page-button span {
+  line-height: 1.9375rem;
+} */
 
 .contacts {
   /* margin-top: 28px; */
   font-style: normal;
+  /* display: block;
+  height: 4.5rem; */
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 0.75rem;
 }
 
 .address {
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
   font-size: 0.875rem;
-  margin-top: 1.75rem;
+  /* margin-top: 1.75rem; */
+  line-height: 1rem;
+  /* display: grid;
+  grid-template-columns: auto;
+  row-gap: 0.75rem; */
 }
 
 .contact {
@@ -417,7 +443,7 @@ body {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1rem;
-  margin-top: 0.75rem;
+  /* margin-top: 0.75rem; */
   display: inline-block;
 }
 
