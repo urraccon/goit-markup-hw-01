@@ -1,3 +1,15 @@
+:root {
+  --active-buttons-color: #2196f3;
+  --paragraphs-color: #757575;
+  --buttons-color: #f5f4fa;
+  --buttons-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  --team-boxes-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --products-boxes-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   /* width: 100rem; */
@@ -530,18 +542,6 @@ body {
   height: 0.0625rem;
   background-color: #ececec;
   /* width: 100rem; */
-}
-
-:root {
-  --active-buttons-color: #2196f3;
-  --paragraphs-color: #757575;
-  --buttons-color: #f5f4fa;
-  --buttons-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  --team-boxes-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  --products-boxes-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 /* .product {
