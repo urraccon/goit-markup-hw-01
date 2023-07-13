@@ -533,15 +533,15 @@ body {
   cursor: pointer;
 }
 
-/* .extended-line {
+.extended-line {
   height: 0.0625rem;
   background-color: #ececec;
-} */
+}
 
 .line {
   height: 0.0625rem;
   background-color: #ececec;
-  /* width: 100rem; */
+  width: 100rem;
 }
 
 /* .product {
