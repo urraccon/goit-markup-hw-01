@@ -39,13 +39,15 @@ body {
 } */
 
 .navigation {
-  height: 5rem;
+  /* height: 5rem; */
   /* display: flex;
   align-items: center;
   justify-content: center; */
   /* display: inline-block; */
   text-align: center;
   /* width: 100rem; */
+  width: fit-content;
+  height: fit-content;
   /* background-color: #ffffff;
   margin-top: 24px;
   background-color: black; 
