@@ -802,15 +802,27 @@ body {
   display: none;
 }
 
-.products-page.web-site,
-.product-page.marketing,
-.products-page.apps,
-.product-page.design {
-  height: 43.2rem;
+.products-page-area.web-site,
+.products-page-area.marketing,
+.products-page-area.apps,
+.products-page-area.design,
+.products-page-content.web-site,
+.products-page-content.apps,
+.products-page-content.marketing,
+.products-page-content.design {
+  /* height: 43.2rem;
   align-items: baseline;
-  box-sizing: border-box;
-  padding: 5.88rem 0 0 0;
+  box-sizing: border-box; */
+  /* padding: 5.88rem 0 0 0; */
+  height: fit-content;
 }
+
+/* .products-page-area.web-site > div,
+.products-page-area.marketing > div,
+.products-page-area.apps > div,
+.products-page-area.design > div {
+  height: fit-content;
+} */
 
 /* .products-page.apps {
   height: 50.3rem;
