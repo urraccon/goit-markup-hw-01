@@ -44,23 +44,26 @@ body {
   align-items: center;
   justify-content: center; */
   /* display: inline-block; */
-  text-align: center;
+  /* text-align: center; */
+  /* margin: auto; */
   /* width: 100rem; */
-  width: fit-content;
-  height: fit-content;
+  /* width: fit-content; */
+  /* height: fit-content; */
   /* background-color: #ffffff;
   margin-top: 24px;
   background-color: black; 
   padding-top: 24px;
   margin-bottom: -24px; */
-  padding: 1.5rem 13.44rem;
-  box-sizing: border-box;
+  /* padding: 1.5rem 13.44rem;
+  box-sizing: border-box; */
 }
 
 .navigation-area {
-  display: inline-block;
-  /* padding: 1.5rem 13.44rem;
-  box-sizing: border-box; */
+  /* display: inline-block; */
+  width: 100rem;
+  margin: auto;
+  padding: 1.5rem 13.44rem;
+  box-sizing: border-box;
 }
 
 .navigation-buttons {
