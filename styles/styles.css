@@ -119,6 +119,12 @@ body {
   /* margin-left: 2.5rem; */
 }
 
+.contact-button-icon {
+  fill: var(--paragraphs-color);
+  width: 1rem;
+  height: 0.74975rem;
+}
+
 .blue-button {
   color: var(--active-buttons-color);
 }
@@ -140,7 +146,7 @@ body {
 } */
 
 .main-page {
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   /* height: 37.5rem; */
   text-align: center;
   /* display: flex;
@@ -161,7 +167,17 @@ body {
 
 .main-page-area {
   width: 100rem;
-  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(50, 50, 50, 0.3),
+      rgba(50, 50, 50, 0.3)
+    ),
+    url(../images/background-pic-main-page-small.jpg);
+  /* background-color: lightgray;
+  background-position-x: 0px;
+  background-position-y: -147.517px;
+  background-size: 100% 170.667%;
+  background-repeat: no-repeat; */
+
   display: inline-block;
   /* text-align: center; */
   box-sizing: border-box;
