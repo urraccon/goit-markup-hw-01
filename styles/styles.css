@@ -60,7 +60,9 @@ body {
 
 .navigation-area {
   /* display: inline-block; */
-  width: 100rem;
+  /* width: 100rem; */
+  width: fit-content;
+  height: fit-content;
   margin: auto;
   padding: 1.5rem 13.44rem;
   box-sizing: border-box;
