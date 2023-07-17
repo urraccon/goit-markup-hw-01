@@ -38,25 +38,25 @@ body {
   height: 146.75rem;
 } */
 
-.navigation {
-  /* height: 5rem; */
-  /* display: flex;
+/* .navigation {
+  height: 5rem;
+  display: flex;
   align-items: center;
-  justify-content: center; */
-  /* display: inline-block; */
-  /* text-align: center; */
-  /* margin: auto; */
-  /* width: 100rem; */
-  /* width: fit-content; */
-  /* height: fit-content; */
-  /* background-color: #ffffff;
+  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  width: 100rem;
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffffff;
   margin-top: 24px;
   background-color: black; 
   padding-top: 24px;
-  margin-bottom: -24px; */
-  /* padding: 1.5rem 13.44rem;
-  box-sizing: border-box; */
-}
+  margin-bottom: -24px;
+  padding: 1.5rem 13.44rem;
+  box-sizing: border-box;
+} */
 
 .navigation-area {
   /* display: inline-block; */
