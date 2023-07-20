@@ -75,6 +75,7 @@ body {
   /* align-items: center; */
   display: grid;
   grid-template-columns: 9.06rem 8.43rem 6.39rem 6.45rem 32.49rem 9.56rem;
+  /* grid-template-columns: auto auto auto auto auto auto; */
   /* width: 73.12rem; */
   /* column-gap: 3.12rem; */
   /* justify-self: center;
@@ -116,17 +117,46 @@ body {
   font-size: 0.875rem;
   color: var(--paragraphs-color);
   font-weight: 500;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 0.62rem;
+  /* align-self: center;
+  justify-self: center; */
   /* margin-left: 2.5rem; */
+  /* padding-left: 0.62rem; */
 }
 
-.contact-button-icon {
-  fill: var(--paragraphs-color);
-  width: 1rem;
-  height: 0.74975rem;
+svg {
+  fill: currentColor;
+  /* width: 1rem;
+  height: 0.74975rem; */
   /* box-sizing: content-box; */
   /* text-align: end; */
   /* margin: 0;
   padding: 0; */
+}
+
+.contact-button-icon {
+  /* margin-right: 0.62rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  align-self: center;
+  /* justify-self: center; */
+}
+
+.contact-button-icon.mail {
+  width: 1rem;
+  height: 0.74975rem;
+  /* fill: currentColor; */
+  /* margin-left: 0.62rem;
+  display: inline-block; */
+}
+
+.contact-button-icon.smartphone {
+  /* fill: currentColor; */
+  width: 0.625rem;
+  height: 1rem;
 }
 
 /* .contact-button-icon-miniature {
@@ -523,7 +553,7 @@ body {
   display: inline-block;
 }
 
-.button {
+a {
   text-decoration: none;
 }
 
@@ -583,7 +613,7 @@ body {
 .contact-button-icon:hover, */
 .active:focus,
 .active:hover {
-  fill: var(--active-buttons-color);
+  /* fill: var(--active-buttons-color); */
   color: var(--active-buttons-color);
 }
 
