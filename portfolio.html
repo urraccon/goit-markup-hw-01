@@ -20,34 +20,44 @@
         <nav class="navigation-area">
           <ul class="navigation-buttons">
             <li class="navigation-button">
-              <a class="home-page-button button" href="index.html"
+              <a class="home-page-button" href="index.html"
                 ><span class="blue-button">Web</span>Studio</a
               >
             </li>
             <li class="navigation-button">
-              <a class="menu-button button first-button" href="index.html"
-                >Studio</a
-              >
+              <ul class="menu-buttons">
+                <li>
+                  <a class="menu-button" href="index.html">Studio</a>
+                </li>
+                <li>
+                  <a class="menu-button current-page" href="portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a class="menu-button" href="contacts.html">Contacts</a>
+                </li>
+              </ul>
             </li>
             <li class="navigation-button">
-              <a class="menu-button button current-page" href="portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li class="navigation-button">
-              <a class="menu-button button" href="contacts.html">Contacts</a>
-            </li>
-            <li class="navigation-button">
-              <a
-                class="contact-button button first-button"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="navigation-button">
-              <a class="contact-button button" href="tel:+12127724150"
-                >+1 212-772-4150</a
-              >
+              <ul class="contact-buttons">
+                <li>
+                  <a
+                    class="contact-button active"
+                    href="mailto:info@devstudio.com"
+                    ><svg class="contact-button-icon mail">
+                      <use href="./images/icons-test.svg#mail" /></svg
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="contact-button active" href="tel:+12127724150">
+                    <svg class="contact-button-icon smartphone">
+                      <use href="./images/icons-test.svg#smartphone" /></svg
+                    >+1 212-772-4150</a
+                  >
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>

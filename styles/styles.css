@@ -60,8 +60,8 @@ body {
 
 .navigation-area {
   /* display: inline-block; */
-  /* width: 100rem; */
-  width: fit-content;
+  width: 100rem;
+  /* width: fit-content; */
   height: fit-content;
   margin: auto;
   padding: 1.5rem 13.44rem;
@@ -71,11 +71,11 @@ body {
 .navigation-buttons {
   /* display: flex;
   flex-direction: row; */
-  list-style-type: none;
+  /* list-style-type: none; */
   /* align-items: center; */
   display: grid;
-  grid-template-columns: 9.06rem 8.43rem 6.39rem 6.45rem 32.49rem 9.56rem;
-  /* grid-template-columns: auto auto auto auto auto auto; */
+  /* grid-template-columns: 9.06rem 8.43rem 6.39rem 6.45rem 32.49rem 9.56rem; */
+  grid-template-columns: auto auto auto;
   /* width: 73.12rem; */
   /* column-gap: 3.12rem; */
   /* justify-self: center;
@@ -87,7 +87,7 @@ body {
 }
 
 .navigation-button {
-  justify-self: right;
+  justify-self: center;
   align-self: center;
 }
 
@@ -110,10 +110,21 @@ body {
   font-size: 0.875rem;
   color: #212121;
   font-weight: 500;
+  /* justify-self: center;
+  align-self: center; */
   /* margin-left: 3.13rem; */
 }
 
-.contact-button-group {
+.menu-buttons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 3.12rem;
+  box-sizing: border-box;
+  padding-left: 5.81rem;
+  padding-right: 20.62rem;
+}
+
+.contact-button {
   font-size: 0.875rem;
   color: var(--paragraphs-color);
   font-weight: 500;
@@ -124,6 +135,12 @@ body {
   justify-self: center; */
   /* margin-left: 2.5rem; */
   /* padding-left: 0.62rem; */
+}
+
+.contact-buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 2.5rem;
 }
 
 svg {
@@ -557,6 +574,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -675,7 +696,7 @@ a {
   /* display: inline-block; */
   /* align-items: center;
   justify-content: center; */
-  list-style-type: none;
+  /* list-style-type: none; */
   /* width: 10rem; */
   display: grid;
   grid-template-columns: auto auto auto;
@@ -720,7 +741,7 @@ a {
 .menu-buttons-products {
   /* display: flex;
   flex-direction: row; */
-  list-style-type: none;
+  /* list-style-type: none; */
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   column-gap: 0.5rem;
