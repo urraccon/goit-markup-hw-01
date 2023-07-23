@@ -13,6 +13,7 @@
 body {
   font-family: "Roboto", sans-serif;
   /* width: 100rem; */
+  /* box-sizing: border-box; */
   /* display: flex;
   justify-content: center; */
   /* align-items: center; */
@@ -269,18 +270,18 @@ svg {
   /* display: block; */
 }
 
-.our-offer {
-  /* display: grid;
-  grid-template-columns: auto; */
-  /* height: 48.06rem; */
-  /* row-gap: 5.88rem; */
-  /* box-sizing: border-box;
-  padding: 5.88rem 0; */
-  /* width: 100rem; */
-  /* background-color: #000000; */
-  /* margin: 5.88rem 0; */
+/* .our-offer {
+  display: grid;
+  grid-template-columns: auto;
+  height: 48.06rem;
+  row-gap: 5.88rem;
+  box-sizing: border-box;
+  padding: 5.88rem 0;
+  width: 100rem;
+  background-color: #000000;
+  margin: 5.88rem 0;
   text-align: center;
-}
+} */
 
 .our-offer-area {
   /* height: 48.06rem;
@@ -291,7 +292,7 @@ svg {
   row-gap: 5.88rem; */
   display: inline-block;
   width: 100rem;
-  height: 48.06rem;
+  /* height: 48.06rem; */
   box-sizing: border-box;
   padding: 5.88rem 13.44rem;
 }
@@ -336,7 +337,36 @@ svg {
 }
 
 .strong-point-box {
-  height: 6.3125rem;
+  display: grid;
+  /* grid-template-columns: auto; */
+  /* grid-template-rows: 0fr; */
+  row-gap: 1.88rem;
+}
+
+.strong-point-frame-icon {
+  width: 16.875rem;
+  height: 7.5rem;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  background-color: var(--buttons-color);
+  /* align-self: center;
+  justify-self: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.strong-point-icon {
+  display: block;
+  width: 4.375rem;
+  height: 4.375rem;
+}
+
+.strong-point-details {
+  /* height: 6.3125rem; */
   width: 16.875rem;
   /* display: inline-block;
   vertical-align: middle;
@@ -360,7 +390,7 @@ svg {
   /* letter-spacing: 0.02625rem; */
 }
 
-.strong-point-details {
+.strong-point-desc {
   font-size: 0.875rem;
   font-weight: 400;
   color: var(--paragraphs-color);
@@ -407,7 +437,7 @@ svg {
   display: inline-block;
   box-sizing: border-box;
   padding: 5.87rem 13.44rem;
-  height: 40.5rem;
+  /* height: 40.5rem; */
 }
 
 .our-team-content {
