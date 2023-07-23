@@ -2,6 +2,8 @@
   --active-buttons-color: #2196f3;
   --paragraphs-color: #757575;
   --buttons-color: #f5f4fa;
+  --section-title-color: #212121;
+  --icons-color: #afb1bb;
   --buttons-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   --team-boxes-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
@@ -280,7 +282,7 @@ svg {
   width: 100rem;
   background-color: #000000;
   margin: 5.88rem 0;
-  text-align: center;
+  margin: auto;
 } */
 
 .our-offer-area {
@@ -290,7 +292,8 @@ svg {
   display: grid;
   grid-template-columns: auto;
   row-gap: 5.88rem; */
-  display: inline-block;
+  display: block;
+  margin: auto;
   width: 100rem;
   /* height: 48.06rem; */
   box-sizing: border-box;
@@ -407,7 +410,10 @@ svg {
   /* box-sizing: border-box;
   padding-bottom: 3.12rem; */
   /* padding: 0; */
-  line-height: 2.625rem;
+  /* line-height: 2.625rem; */
+  letter-spacing: 0.0675rem;
+  text-align: center;
+  color: var(--section-title-color);
 }
 
 .what-we-do-photo {
@@ -423,7 +429,6 @@ svg {
   background-color: var(--buttons-color);
   /* padding-top: 94px; */
   /* margin-top: 47px; */
-
   text-align: center;
   /* display: flex;
   align-items: center;
@@ -525,7 +530,7 @@ svg {
 .social-icon {
   width: 2.75rem;
   height: 2.75rem;
-  fill: var(--paragraphs-color);
+  fill: var(--icons-color);
   display: block;
   padding: 0.75rem;
   /* box-sizing: border-box; */
@@ -539,6 +544,33 @@ svg {
   /* box-sizing: border-box; */
   /* padding-top: 1rem; */
   /* trebuie scos din gap */
+}
+
+.regular-customers-area {
+  width: 100rem;
+  display: block;
+  margin: auto;
+}
+
+.regular-customers-content {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 3.12rem;
+  padding: 5.87rem 13.44rem;
+}
+
+.brands-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  column-gap: 1.87rem;
+}
+
+.brand {
+  width: 10.625rem;
+  height: 5.75rem;
+  box-sizing: border-box;
+  border: 1px solid var(--icons-color);
+  border-radius: 0.25rem;
 }
 
 .footer {
