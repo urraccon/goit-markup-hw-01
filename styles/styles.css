@@ -379,7 +379,7 @@ svg {
   margin-top: 50px; */
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 1.88rem;
+  column-gap: 1.87rem;
 }
 
 .strong-point-title {
@@ -469,7 +469,8 @@ svg {
   background-color: #fff;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: auto;
+  /* grid-template-columns: auto; */
+  grid-template-rows: 0fr auto;
   /* text-align: center; */
   /* margin-left: 10rem; */
   /* margin-left: 0; */
@@ -500,6 +501,7 @@ svg {
   font-size: 1rem;
   /* margin-bottom: 0.63rem; */
   line-height: 1.188rem;
+  height: fit-content;
 }
 
 .person-position {
@@ -507,20 +509,35 @@ svg {
   font-size: 1rem;
   color: var(--paragraphs-color);
   line-height: 1.188rem;
+  height: fit-content;
+}
+
+.social-icon-frame {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  /* background-color: var(--active-buttons-color); */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .social-icon {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 2.75rem;
+  height: 2.75rem;
   fill: var(--paragraphs-color);
+  display: block;
+  padding: 0.75rem;
+  /* box-sizing: border-box; */
 }
 
 .social-icons {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  column-gap: 2.12rem;
-  box-sizing: border-box;
-  padding-top: 1rem;
+  column-gap: 0.62rem;
+  /* grid-template-rows: 0fr 0fr; */
+  /* box-sizing: border-box; */
+  /* padding-top: 1rem; */
   /* trebuie scos din gap */
 }
 
@@ -627,17 +644,23 @@ ul {
 } */
 
 .person-about {
-  height: 6.75rem;
-  display: flex;
+  /* height: 6.75rem; */
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
   /* background-color: #000000; */
+  display: grid;
+  row-gap: 1rem;
+  grid-template-rows: 0fr;
+  justify-self: center;
+  align-self: center;
+  /* grid-template-columns: auto; */
 }
 
-.person-about-content {
+.person-about-desc {
   display: grid;
-  grid-template-columns: auto;
+  /* grid-template-columns: auto; */
   row-gap: 0.63rem;
 }
 
@@ -671,6 +694,16 @@ ul {
 .request-service-button:focus,
 .request-service-button:hover {
   cursor: pointer;
+}
+
+.social-icon-frame:hover,
+.social-icon-frame:focus {
+  background-color: var(--active-buttons-color);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  fill: white;
 }
 
 .extended-line {
