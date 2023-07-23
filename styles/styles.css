@@ -703,7 +703,7 @@ ul {
 
 .social-icon:hover,
 .social-icon:focus {
-  fill: white;
+  fill: hsl(0, 100%, 100%);
 }
 
 .extended-line {
