@@ -67,7 +67,7 @@ body {
   /* width: fit-content; */
   height: fit-content;
   margin: auto;
-  padding: 1.5rem 13.44rem;
+  padding: 0 13.44rem;
   box-sizing: border-box;
 }
 
@@ -79,6 +79,7 @@ body {
   display: grid;
   /* grid-template-columns: 9.06rem 8.43rem 6.39rem 6.45rem 32.49rem 9.56rem; */
   grid-template-columns: auto auto auto;
+  height: 5rem;
   /* width: 73.12rem;
   column-gap: 3.12rem;
   justify-self: center;
@@ -113,18 +114,49 @@ body {
   font-size: 0.875rem;
   color: #212121;
   font-weight: 500;
-  /* justify-self: center;
+  /* padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 1.75rem;
+  justify-self: center;
   align-self: center;
   margin-left: 3.13rem; */
+  border-bottom: 0.25rem solid white;
+  /* padding-bottom: 1.75rem;
+  margin-top: 2rem; */
+  box-sizing: border-box;
+  /* height: 4.75rem; */
+  display: block;
+  padding-bottom: 1.75rem;
 }
 
-.menu-buttons {
+.menu-buttons-list {
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 3.12rem;
-  box-sizing: border-box;
+  /* box-sizing: content-box; */
   padding-left: 5.81rem;
   padding-right: 20.62rem;
+  /* border: 0.25rem solid var(--active-buttons-color); */
+}
+
+/* .box {
+  width: 100%;
+  padding-bottom: 1.75rem;
+  margin-top: 2rem;
+  background-color: green;
+  border-bottom: 0.25rem solid white;
+  box-sizing: border-box;
+} */
+
+/* .menu-button-box {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 1.75rem;
+} */
+
+.navigation-button.menu-buttons {
+  align-self: end;
 }
 
 .contact-button {
@@ -745,8 +777,17 @@ ul {
 .menu-button:hover,
 .menu-button:focus {
   /* cursor: pointer; */
+  /* box-sizing: border-box; */
   color: var(--active-buttons-color);
+  border-bottom: 0.25rem solid currentColor;
 }
+
+/* .box:hover,
+.box:focus {
+  border-bottom: 0.25rem solid var(--active-buttons-color);
+  color: green;
+  cursor: pointer;
+} */
 
 .active:focus,
 .active:hover {
@@ -1027,9 +1068,14 @@ ul {
   box-shadow: var(--products-boxes-shadow);
 }
 
-.current-page {
+.current-page.menu-button {
   color: var(--active-buttons-color);
+  border-bottom: 0.25rem solid currentColor;
 }
+
+/* .current-page.box {
+  border-bottom: 0.25rem solid var(--active-buttons-color);
+} */
 
 .current-filter-products {
   background-color: var(--active-buttons-color);
