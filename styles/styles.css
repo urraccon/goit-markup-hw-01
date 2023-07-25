@@ -79,7 +79,7 @@ body {
   display: grid;
   /* grid-template-columns: 9.06rem 8.43rem 6.39rem 6.45rem 32.49rem 9.56rem; */
   grid-template-columns: auto auto auto;
-  height: 5rem;
+  /* height: 5rem; */
   /* width: 73.12rem;
   column-gap: 3.12rem;
   justify-self: center;
@@ -127,7 +127,7 @@ body {
   box-sizing: border-box;
   /* height: 4.75rem; */
   display: block;
-  padding-bottom: 1.75rem;
+  padding: 2rem 0 1.75rem;
 }
 
 .menu-buttons-list {
@@ -155,9 +155,9 @@ body {
   row-gap: 1.75rem;
 } */
 
-.navigation-button.menu-buttons {
+/* .navigation-button.menu-buttons {
   align-self: end;
-}
+} */
 
 .contact-button {
   font-size: 0.875rem;
