@@ -121,13 +121,23 @@ body {
   justify-self: center;
   align-self: center;
   margin-left: 3.13rem; */
-  border-bottom: 0.25rem solid white;
+  /* border-bottom: 0.25rem solid white; */
   /* padding-bottom: 1.75rem;
   margin-top: 2rem; */
   box-sizing: border-box;
   /* height: 4.75rem; */
   display: block;
-  padding: 2rem 0 1.75rem;
+  padding: 2rem 0 2rem;
+  position: relative;
+}
+
+.menu-button.current-page::after {
+  color: white;
+  border-bottom: 0.25rem solid var(--active-buttons-color);
+  content: "Studio";
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .menu-buttons-list {
@@ -447,12 +457,31 @@ svg {
   color: var(--section-title-color);
 }
 
-.what-we-do-photo {
+.what-we-do-box {
   width: 23.125rem;
   height: 18.375rem;
   /* margin-left: 1.88rem;
   display: grid;
   grid-template-columns: auto auto auto; */
+  position: relative;
+}
+
+.what-we-do-overlay {
+  width: 100%;
+  height: 4.375rem;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-we-do-text {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.02625rem;
 }
 
 .our-team {
@@ -782,7 +811,8 @@ ul {
   /* cursor: pointer; */
   /* box-sizing: border-box; */
   color: var(--active-buttons-color);
-  border-bottom: 0.25rem solid currentColor;
+  /* border-bottom: 0.25rem solid currentColor; */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .box:hover,
@@ -796,22 +826,26 @@ ul {
 .active:hover {
   /* fill: var(--active-buttons-color); */
   color: var(--active-buttons-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .request-service-button:focus,
 .request-service-button:hover {
   cursor: pointer;
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .social-icon-frame:hover,
 .social-icon-frame:focus {
   background-color: var(--active-buttons-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon:hover,
 .social-icon:focus {
   fill: hsl(0, 100%, 100%);
   cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .client:hover,
@@ -824,6 +858,8 @@ ul {
   fill: var(--active-buttons-color);
   cursor: pointer;
   border-color: var(--active-buttons-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .extended-line {
@@ -960,6 +996,9 @@ ul {
   color: hsl(0, 100%, 100%);
   box-shadow: var(--buttons-shadow);
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products-page {
@@ -1064,6 +1103,7 @@ ul {
 .contact:hover,
 .contact:focus {
   color: var(--active-buttons-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product:hover,
@@ -1072,12 +1112,13 @@ ul {
   /* box-shadow: 0px 2px 2px 0px, rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
   box-shadow: var(--products-boxes-shadow);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current-page.menu-button {
+/* .current-page.menu-button {
   color: var(--active-buttons-color);
   border-bottom-color: currentColor;
-}
+} */
 
 /* .current-page.box {
   border-bottom: 0.25rem solid var(--active-buttons-color);
