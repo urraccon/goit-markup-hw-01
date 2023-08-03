@@ -143,11 +143,11 @@ body {
   position: relative;
 }
 
-.menu-button.current-page::after {
-  color: white;
+.current-page::after {
   border-bottom: 0.25rem solid var(--active-color);
-  content: "Studio";
+  content: "";
   position: absolute;
+  width: 100%;
   bottom: 0;
   left: 0;
 }
@@ -1124,10 +1124,9 @@ ul {
   transition: box-shadow var(--transition);
 }
 
-/* .current-page.menu-button {
+.current-page {
   color: var(--active-color);
-  border-bottom-color: currentColor;
-} */
+}
 
 /* .current-page.box {
   border-bottom: 0.25rem solid var(--active-color);
