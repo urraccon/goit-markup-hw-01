@@ -22,6 +22,11 @@
   --transparent-blue: rgba(33, 150, 243, 0.9);
   --transition-bot-to-top: 900ms ease-in-out;
   --transition-slower: 900ms cubic-bezier(0.4, 0, 0.2, 1);
+  --backdrop: rgba(0, 0, 0, 0.2);
+  --window-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --close-btn-stroke: rgba(0, 0, 0, 0.1);
+  --transition-slow: 700ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -1084,7 +1089,7 @@ ul {
 
 .product-box:hover .product-overlay {
   transform: translateY(0);
-  transition: transform 700ms ease;
+  transition: transform var(--transition-bot-to-top);
 }
 
 /* .products-list {
@@ -1245,3 +1250,66 @@ ul {
   width: 100rem;
   display: flex;
 } */
+
+/* window */
+
+.window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--backdrop);
+  transition: transform var(--transition-slow), opacity var(--transition-slow);
+}
+
+.window-content {
+  width: 33rem;
+  height: 36.3125rem;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  box-shadow: var(--window-shadow);
+}
+
+.close-btn {
+  cursor: pointer;
+  outline: none;
+  width: 1.875rem;
+  height: 1.875rem;
+  padding: 0;
+  border: none;
+  background-color: white;
+}
+
+.is-hidden {
+  visibility: hidden;
+  pointer-events: auto;
+  transform: scale(0.8);
+  opacity: 0.8;
+}
+
+.close-icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  position: absolute;
+  top: 0.88rem;
+  right: 0.88rem;
+}
+
+.close-btn-stroke {
+  stroke-width: 1px;
+  stroke: var(--close-btn-stroke);
+  fill: white;
+  width: 1.875rem;
+  height: 1.875rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}

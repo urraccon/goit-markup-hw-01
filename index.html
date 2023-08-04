@@ -16,8 +16,8 @@
   </head>
   <body class="studio">
     <div class="studio-page">
+      <!-- navigation -->
       <section class="navigation">
-        <!-- navigation -->
         <nav class="navigation-menu">
           <ul class="navigation-buttons">
             <li class="navigation-button">
@@ -66,23 +66,25 @@
       <div class="extended-line">
         <div class="line"></div>
       </div>
+      <!-- request services -->
       <section class="main-sec">
-        <!-- request services -->
         <div class="main-box">
           <div class="main-content">
             <h1 class="main-title">
               EFFECTIVE SOLUTIONS FOR<br />
               YOUR BUSINESS
             </h1>
-            <button class="request-service-button">Request our service</button>
+            <button data-modal-open class="request-service-button">
+              Request our service
+            </button>
           </div>
         </div>
       </section>
       <section class="our-offer">
         <div class="our-offer-box">
           <div class="out-offer-content">
+            <!-- strong points -->
             <section class="strong-points">
-              <!-- strong points -->
               <div class="strong-points-list">
                 <div class="strong-point-box">
                   <div class="strong-point-frame-icon">
@@ -142,8 +144,8 @@
                 </div>
               </div>
             </section>
+            <!-- how we work-->
             <section class="what-we-do">
-              <!-- how we work-->
               <div class="what-we-do-box">
                 <h2 class="section-title">What we do</h2>
                 <div class="what-we-do-photos">
@@ -183,8 +185,8 @@
           </div>
         </div>
       </section>
+      <!-- team -->
       <section class="our-team">
-        <!-- team -->
         <div class="our-team-box">
           <div class="our-team-content">
             <h2 class="section-title">Our Team</h2>
@@ -333,8 +335,8 @@
           </div>
         </div>
       </section>
+      <!-- regular customers -->
       <section class="regular-customers">
-        <!-- regular customers -->
         <div class="regular-customers-box">
           <div class="regular-customers-content">
             <h2 class="section-title">Regular Customers</h2>
@@ -361,8 +363,8 @@
           </div>
         </div>
       </section>
+      <!-- contacts -->
       <section class="footer-sec">
-        <!-- contacts -->
         <div class="footer-box">
           <div class="footer-content">
             <div class="footer-contacts">
@@ -405,6 +407,22 @@
           </div>
         </div>
       </section>
+    </div>
+    <!-- window -->
+    <div data-modal class="window backdrop is-hidden">
+      <div class="window-content">
+        <button data-modal-close class="close-btn">
+          <div class="close-icon-frame">
+            <svg class="close-btn-stroke">
+              <use href="./images/icons-test.svg#closeBtnStroke" />
+            </svg>
+            <svg class="close-icon">
+              <use href="./images/icons-test.svg#closeBtn" />
+            </svg>
+          </div>
+        </button>
+        <p class="section-title">Ce faci?</p>
+      </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
