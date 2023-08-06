@@ -432,7 +432,40 @@
             </svg>
           </div>
         </button>
-        <p class="section-title">Ce faci?</p>
+        <form class="req-serv">
+          <h3 class="req-serv-title">
+            Leave your information and we'll call you back
+          </h3>
+          <div class="name-group">
+            <label class="description" for="">Name</label>
+            <input name="name" type="text" class="field" />
+            <svg class="field-icon">
+              <use href="" />
+            </svg>
+          </div>
+          <div class="phone-group">
+            <label for="phone" class="description">Telephone</label>
+            <input name="telephone" id="phone" type="tel" class="phone" />
+            <svg class="field-icon">
+              <use href="" />
+            </svg>
+          </div>
+          <div class="email-group">
+            <label for="email" class="description">E-mail</label>
+            <input name="email" id="email" type="email" class="field" />
+            <svg class="field-icon">
+              <use href="" />
+            </svg>
+          </div>
+          <div class="comments-group">
+            <label for="comments" class="description">Comments</label>
+            <textarea
+              name="comments"
+              id="comments"
+              placeholder="Enter the text"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
