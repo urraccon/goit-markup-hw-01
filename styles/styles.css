@@ -11,7 +11,7 @@
   --products-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   --main-overlay: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-  --req-serv-btn-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  --blue-btn-field-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   --what-we-do-overlay: rgba(47, 48, 58, 0.8);
   --footer-color: #2f303a;
   --dark-icon-color: rgba(255, 255, 255, 0.1);
@@ -27,6 +27,7 @@
     0px 1px 1px 0px rgba(0, 0, 0, 14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   --close-btn-stroke: rgba(0, 0, 0, 0.1);
   --transition-slow: 700ms cubic-bezier(0.4, 0, 0.2, 1);
+  --subs-field-border: rgba(255, 255, 255, 0.3);
 }
 
 body {
@@ -322,7 +323,6 @@ svg {
   width: 12.5rem;
   margin-top: 1.87rem;
   border-radius: 0.25rem;
-  box-shadow: var(--req-serv-btn-shadow);
   font-weight: 700;
   font-size: 1rem;
   border: none;
@@ -672,10 +672,9 @@ svg {
 .footer-content {
   width: 100rem;
   background-color: var(--footer-color);
-  padding: 3.75rem 13.44rem;
+  padding: 0 13.44rem;
   display: grid;
-  grid-template-columns: 0fr 0fr;
-  column-gap: 4.38rem;
+  grid-template-columns: auto auto auto;
 }
 
 .social-icons-box {
@@ -683,6 +682,7 @@ svg {
   /* grid-template-columns: 0fr; */
   grid-template-rows: 0fr 0fr;
   row-gap: 1.25rem;
+  padding: 4.5rem 0 4.5rem 4.37rem;
 }
 
 .footer-contacts {
@@ -698,6 +698,7 @@ svg {
   grid-template-columns: auto;
   row-gap: 1.75rem;
   width: fit-content;
+  padding: 3.75rem 0;
 }
 
 .footer-home-page-button {
@@ -842,6 +843,8 @@ ul {
 .request-service-button:focus,
 .request-service-button:hover {
   cursor: pointer;
+  box-shadow: var(--blue-btn-field-shadow);
+  transition: box-shadow var(--transition);
   /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
@@ -1312,4 +1315,65 @@ ul {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
+}
+
+/* Subscribe form */
+
+.subscribe {
+  padding: 4.5rem 0 5.81rem 5.81rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.subs-group {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.subs-btn {
+  width: 12.5rem;
+  height: 3.125rem;
+  border-radius: 0.25rem;
+  background-color: var(--active-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+  letter-spacing: 0.06rem;
+  border: none;
+  position: relative;
+  text-align: left;
+  padding: 0 2.69rem;
+}
+
+.subs-btn-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 0.81rem;
+  left: 9.25rem;
+}
+
+.subs-field {
+  background-color: transparent;
+  width: 22.375rem;
+  height: 3.125rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--subs-field-border);
+  padding: 0.94rem 1rem;
+  color: white;
+}
+
+.subs-field:hover,
+.subs-field:focus {
+  box-shadow: var(--blue-btn-field-shadow);
+  transition: box-shadow var(--transition);
+}
+
+.subs-btn:hover,
+.subs-bnt:focus {
+  cursor: pointer;
+  box-shadow: var(--blue-btn-field-shadow);
+  transition: box-shadow var(--transition);
 }
