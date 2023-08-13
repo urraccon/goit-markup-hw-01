@@ -16,6 +16,72 @@
   </head>
   <body class="studio">
     <div class="studio-page">
+      <!-- mobile menu -->
+      <div class="js-menu-container mobile-menu-content">
+        <button class="js-close-menu mobile-menu-close-btn js-close-menu">
+          <svg class="mobile-menu-icon">
+            <use href="./images/icons.svg#close-btn" />
+          </svg>
+        </button>
+        <ul class="mobile-menu">
+          <li class="mobile-menu-btn-group">
+            <ul class="mobile-menu-nav">
+              <li>
+                <a class="mobile-menu-nav-btn active-page" href="index.html"
+                  >Studio
+                </a>
+              </li>
+              <li>
+                <a class="mobile-menu-nav-btn" href="portfolio.html"
+                  >Portfolio
+                </a>
+              </li>
+              <li>
+                <a class="mobile-menu-nav-btn" href="contacts.html"
+                  >Contacts
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="mobile-menu-btn-group">
+            <ul class="mobile-menu-contacts">
+              <li>
+                <a class="mobile-menu-phone-btn" href="tel:+12127724150"
+                  >+12127724150</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mobile-menu-email-btn"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-menu-btn-group">
+                <ul class="mobile-menu-social-links">
+                  <li>
+                    <div class="social-link-group">
+                      <a href="" class="mobile-menu-social-link first"
+                        >Instagram</a
+                      >
+                      <a href="" class="mobile-menu-social-link second"
+                        >Twitter</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="social-link-group"></div>
+                    <a href="" class="mobile-menu-social-link third"
+                      >Facebook</a
+                    >
+                    <a href="" class="mobile-menu-social-link end">LinkedIn</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
       <!-- navigation -->
       <section class="navigation">
         <nav class="navigation-menu">
@@ -61,6 +127,11 @@
               </ul>
             </li>
           </ul>
+          <button class="mobile-menu-open mobile js-open-menu">
+            <svg class="mobile-menu-icon">
+              <use href="./images/icons.svg#burger-menu" />
+            </svg>
+          </button>
         </nav>
       </section>
       <div class="extended-line">
@@ -545,5 +616,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
