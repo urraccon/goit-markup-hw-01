@@ -130,7 +130,6 @@ mobile  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  margin-bottom: 19.13rem;
 }
 
 .mobile-menu-nav-btn {
@@ -157,7 +156,6 @@ mobile  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  margin-bottom: 4rem;
 }
 
 .mobile-menu-phone-btn {
@@ -208,6 +206,13 @@ mobile  box-sizing: border-box;
 .mobile-menu-social-link.third {
   border-right: 0.0625rem var(--grey-border);
   padding-left: 0;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 /* small mobile screen version */
@@ -1624,7 +1629,7 @@ ul {
 
 .subs-field {
   background-color: transparent;
-  width: 100%;
+  width: calc(100vw - 0.92rem * 2);
   height: 3.125rem;
   border-radius: 0.25rem;
   border: 1px solid var(--subs-field-border);
