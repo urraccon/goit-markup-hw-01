@@ -1125,8 +1125,8 @@ ul {
   transition: border var(--transition);
 }
 
-.client-logo:hover,
-.client-logo:focus {
+.client-frame-logo:hover .client-logo,
+.client-frame-logo:focus .client-logo {
   fill: var(--active-color);
   cursor: pointer;
   transition: fill var(--transition);
