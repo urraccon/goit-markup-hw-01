@@ -1,2 +1,2 @@
-# web_studio
-https://urraccon.github.io/web_studio/
+# web-studio
+https://urraccon.github.io/web-studio/
